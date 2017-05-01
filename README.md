@@ -1,6 +1,4 @@
-# hustle
-
-## [Download](https://code.cubewise.com/hustle) Hustle from the [Cubewise Code website](https://code.cubewise.com/)
+# [Download](https://code.cubewise.com/hustle) Hustle from the [Cubewise Code website](https://code.cubewise.com/)
 
 Hustle is a small utility that can be used to manage threads when executing command line tools. The tool was built to take advantage parallel loading in IBM Cognos TM1, specifically the tm1runti.exe. Hustle enables you to specify the number of concurrent threads you want to be executed at any one time and pass a batch of commands to be executed on these threads.
 
