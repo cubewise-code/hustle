@@ -17,7 +17,7 @@ namespace Cubewise.Hustle
             _maxThreads = maxThreads;
             try
             {
-                _commands = File.ReadAllLines(batchListPath);
+                _commands = File.ReadAllLines(batchListPath, Encoding.UTF8);
                 int count = 0;
                 foreach (string command in _commands)
                 {
@@ -93,8 +93,6 @@ namespace Cubewise.Hustle
                 int space = command.IndexOf(" ", exe + 4);
                 string fileName = command.Substring(0, space);
                 string args = command.Substring(space);
-                //Program.Log("\tFile Name: " + fileName);
-                //Program.Log("\tArguments: " + args);
 
                 proc.StartInfo.FileName = fileName;
                 proc.StartInfo.Arguments = args;

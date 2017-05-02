@@ -13,6 +13,8 @@ namespace Cubewise.Hustle
         static int Main(string[] args)
         {
 
+            Console.InputEncoding = Encoding.UTF8;
+
             if (args.Length != 2)
             {
                 Console.WriteLine("2 Arguments must be provided: ");
