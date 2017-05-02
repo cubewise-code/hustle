@@ -44,4 +44,9 @@ Hustle is shared by Cubewise the developers of Pulse for TM1, a comprehensive ad
 * Change Tracking
 * Source Control
 * Migration
+
+## Contributions
+
+The source code is hosted at [github.com/cubewise-code/hustle](https://github.com/cubewise-code/hustle). If you find a bug or feel like you can contribute please [fork](https://help.github.com/articles/fork-a-repo/) the repository, update the code and then create a [pull request](https://help.github.com/articles/about-pull-requests/) so we can merge in the changes.
+
  
