@@ -9,6 +9,8 @@ Hustle is very simple to use, the command line tool takes 2 arguments:
 * A path to text file that contains the commands to be executed
 * The maximum number of threads to be used
 
+**.Net Framework 3.5**  is required to be installed on the server where Hustle is running
+
 Example:
 ```
 hustle.exe "RunTIBatch.txt" 16
