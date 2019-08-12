@@ -39,7 +39,7 @@ namespace Cubewise.Hustle
             Log("");
             Log("Hustle parameters: ");
             Log("\tFile path for batch is {0}", batchListPath);
-            Log("\tMaxiumum number of threads is {0}", maxThreads);
+            Log("\tMaximum number of threads is {0}", maxThreads);
             Log("");
 
             if (File.Exists(batchListPath) == false)
